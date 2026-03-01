@@ -1,0 +1,15 @@
+#!/bin/bash
+# 抖音文案提取 Skill 入口 (Linux/Mac)
+# 用法: douyin-extract <链接>
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PROJECT_DIR="$(dirname "$SCRIPT_DIR")"
+
+cd "$PROJECT_DIR" || exit 1
+
+if ! command -v python3 &> /dev/null; then
+    echo "错误: 未找到 Python3"
+    exit 1
+fi
+
+python3 skill_extract.py "$@"
