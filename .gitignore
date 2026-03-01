@@ -1,0 +1,13 @@
+# 打包文件，不需要纳入版本控制
+*.skill
+
+# 临时上传文件
+_temp_upload.md
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS
+.DS_Store
