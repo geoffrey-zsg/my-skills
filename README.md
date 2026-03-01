@@ -1,6 +1,6 @@
 # my-skills
 
-我的 Claude Code 个人 Skills 集合，统一维护，多端同步。
+AI 写作过程中为提效制作的 Claude Code Skills 集合，统一维护，多端同步。
 
 ## 安装方式
 
