@@ -1,0 +1,18 @@
+{
+  "name": "project-init",
+  "version": "1.0.0",
+  "description": "快速初始化空白项目，包含 git 仓库、基础文件和可选的 GitHub 远程仓库",
+  "author": "Claude",
+  "triggers": [
+    "创建空白项目",
+    "初始化新项目",
+    "建立新仓库",
+    "新建项目目录",
+    "create blank project",
+    "initialize new project"
+  ],
+  "dependencies": {
+    "required": ["git"],
+    "optional": ["gh"]
+  }
+}
